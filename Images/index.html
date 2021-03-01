@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+           background-image: url('background.jpg');
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        div{
+            min-height: 150px;
+            width: 80%;
+            border: 3px solid gold;
+            margin: 10px auto;
+            color: ivory;
+            background-color: rgba(0, 0, 0, .7);
+            overflow: auto;
+        }
+        image{
+            width: 10%;
+        }
+        h1{
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <div ><h1> Images </h1>
+</div>
+   <div style="background-image:url(03-AmatoPhotos.jpg)">
+       <h2>background-image</h2>
+   </div>
+   <div>
+       <h2>External/Clickable</h2><br>
+      
+       <a href="https://www.google.com/"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" style="float: right;"></a>
+   </div>
+   <div>
+    <h2> No Float</h2>
+    <img src="car1.jpg" alt="Car">
+    <p>This one does not have a float</p>
+   </div>
+   <div>
+    <h2>Float left</h2>
+    <img src="car1.jpg" alt="Car" style="float: left;"> 
+    <p>This image floats to the left</p>
+  </div>
+   <div >
+    <h2> Float Right</h2>
+    <img src="car1.jpg" alt="Car" style="float: right;">
+    <p>This image floats right</p> 
+
+
+</body>
+</html>
