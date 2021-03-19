@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+    font-size: large;
+    text-align:center;
+}
+
+h1, h2{
+color: rgb(121, 0, 16);
+font-weight: 700;
+text-align: center;
+
+}
+
+
+nav{
+    text-align: center;
+   font-size: x-large; 
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: rgb(121, 0, 16);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+    border:2px solid rgb(121, 0, 16);
+}
+
+nav a:hover{
+    background-color: white;
+    color: rgb(121, 0, 16);
+}
+
+
+.container{
+    border: 3px solid rgb(121, 0, 16);
+    border-radius: 10px;
+    margin: 10px auto;
+    overflow: auto;
+    padding: 10px;
+    width: 80%;
+}
