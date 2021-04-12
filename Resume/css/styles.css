@@ -1,0 +1,168 @@
+:root{
+    --dark-primary-color: #004ecb;
+    --light-primary-color: #75a7ff;
+    --primary-color: #2979ff;
+    --text-icons: #000000;
+    --accent-color: #ec407a;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --heading-font: 'lato', sans-serif ;
+    --text-font: 'Open Sans', sans-serif;
+}
+
+#h2{
+    text-align: center;
+}
+
+#center{
+    text-align: center;
+}
+#left{
+    clear: both;
+    float: left;
+}
+#gmail{
+    width: 100px;
+    float: left;
+}
+
+body{
+    background: var(--dark-primary-color);
+    font-size: large;
+}
+
+
+h1,h2{
+    margin: 20px;
+    font: var(--heading-font);
+}
+
+h1{
+    font-size: 2em; 
+    text-align: center
+}
+h2{
+    font-size: 1.5em;
+}
+h4{
+    padding: 10px;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.strip{
+    background-color: var(--light-primary-color) ;
+    font-size: 150%;
+    text-align: center;
+   font-weight: bold;
+   padding: 5px;
+}
+
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    padding: 10px;
+    width: 80%;
+    ;
+}
+
+.footer{
+    margin: 10px auto;
+    overflow: auto;
+    padding: 5px;
+    width: 50%;
+    background-color: var(--light-primary-color)
+    ;
+}
+
+
+aside{
+    float: right;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    overflow: auto;
+    border: 4px solid  #ec407a;
+    
+}
+.background1{
+
+     border: 3px solid #ec407a;
+     border-radius: 10px;
+    margin: 10px auto;
+    overflow: auto;
+    padding: 10px;
+     width: 80%;
+    background-color: rgb(255, 255, 255) ;
+}
+.background2{
+
+    border: 3px solid #ec407a;
+    border-radius: 10px;
+   margin: 10px auto;
+   overflow: auto;
+   padding: 20px;
+    width: 80%;
+   background-color: rgb(255, 255, 255) ;
+}
+
+nav{
+    text-align: center;
+   font-size: x-large; 
+}
+
+nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: var(--accent-color);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+    border:2px solid var(--accent-color);
+}
+
+nav a:hover{
+    color: var(--accent-color);
+    background: white;
+}
+
+p{
+    font-size: x-large;
+}
+ul{
+    list-style-type: disc;
+    list-style-position: outside;
+    font-size: larger;
+}
+.colonial{
+    float: left;
+    width:15%;
+    padding: 5%;
+    
+}
+.center{
+    text-align: center;
+}
+.skills{
+    width: 65%;
+    float: right;
+}
+
+footer{
+    text-align: center;
+    color: black;
+font-weight: lighter;
+}
+.micro{
+    display: inline;
+    clear: both;
+     width: 13%;
+}
+pre{
+    font-size: x-large;
+}
+strong{
+    font-size: x-large;
+}
