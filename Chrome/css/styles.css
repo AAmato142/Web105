@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    color: ivory;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.container{
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 3px solid orangered;
+    border-radius: 10px;
+    min-height: 150px;
+}
+h1, h2, h3{
+    font-family: sans-serif;
+    color: gold;
+}
+img{
+    width: 20%;
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: red;
+}
+nav{
+    text-align: center;
+}
+Nav a{
+    color: red;
+    text-decoration: none;   
+}
+ul{
+    list-style-type: square;
+    color: green;
+}
+dt{
+    color: blue;
+}
+dd{
+    color: salmon;
+}
+
+#gaming{
+    color: blueviolet;
+}
+#editing{
+    color: darkturquoise;
+}
+#video-making{
+    color: darkseagreen;
+}
+#running{
+    color: darkslategray;
+}
+#programing{
+    color: darkblue;
+}
+
+
+#local{
+    text-align: center;
+    line-height: 3;
+}
+ 
+
+#local a{
+    background-color: darkgoldenrod;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 5px 8px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+ #local a:hover{
+    color: darkgoldenrod;
+    background: black;
+ }
+ .top-link{
+     color: darkgoldenrod;
+ }
